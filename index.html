@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bootstrap Documentation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav id="navbar">
+    <header>Bootstrap Docs</header><hr>
+    <a class="nav-link" href="#Introduction">Introduction</a><hr>
+    <a class="nav-link" href="#Grid_System">Grid System</a><hr>
+    <a class="nav-link" href="#Components">Components</a><hr>
+    <a class="nav-link" href="#Utilities">Utilities</a><hr>
+    <a class="nav-link" href="#Customization">Customization</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>Bootstrap is a popular open-source front-end framework for building responsive and mobile-first websites.</p>
+      <p>It includes HTML, CSS, and JS-based design templates for typography, forms, buttons, navigation, and more.</p>
+      <code>npm install bootstrap</code>
+      <p>You can add Bootstrap via CDN or install it via npm or yarn.</p>
+      <ul>
+        <li>Responsive by default</li>
+        <li>Prebuilt components</li>
+        <li>Consistent design</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Grid_System">
+      <header>Grid System</header>
+      <p>The Bootstrap grid system uses a series of containers, rows, and columns to layout and align content.</p>
+      <p>It’s built with flexbox and is fully responsive.</p>
+      <code>&lt;div class="row"&gt;&lt;/div&gt;</code>
+      <p>You can specify column width using classes like <code>col-md-6</code>.</p>
+      <ul>
+        <li>12-column layout</li>
+        <li>Responsive breakpoints</li>
+        <li>Nested columns</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Components">
+      <header>Components</header>
+      <p>Bootstrap offers prebuilt components to create interfaces quickly.</p>
+      <p>Common components include buttons, navbars, cards, and modals.</p>
+      <code>&lt;button class="btn btn-primary"&gt;Click&lt;/button&gt;</code>
+      <p>Just add appropriate classes to activate styling.</p>
+      <ul>
+        <li>Buttons</li>
+        <li>Navbars</li>
+        <li>Cards</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Utilities">
+      <header>Utilities</header>
+      <p>Bootstrap provides utility classes to modify layout, spacing, alignment, and visibility.</p>
+      <p>These classes are great for quick styling without custom CSS.</p>
+      <code>.mt-3, .text-center, .d-flex</code>
+      <p>Utilities help save time and improve consistency.</p>
+      <ul>
+        <li>Spacing: <code>m-2</code>, <code>p-3</code></li>
+        <li>Display: <code>d-none</code>, <code>d-flex</code></li>
+        <li>Colors: <code>text-danger</code>, <code>bg-success</code></li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Customization">
+      <header>Customization</header>
+      <p>You can customize Bootstrap using Sass variables and build tools.</p>
+      <p>This allows changing colors, spacing, breakpoints, and more.</p>
+      <code>$primary: #ff5733;</code>
+      <p>Use the Bootstrap source files and build your own version.</p>
+      <ul>
+        <li>Override default variables</li>
+        <li>Create custom components</li>
+        <li>Control file size</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
